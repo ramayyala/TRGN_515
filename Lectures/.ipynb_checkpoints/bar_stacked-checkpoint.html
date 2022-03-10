@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.3.min.js" integrity="sha384-dM3QQsP+wXdHg42wTqW85BjZQdLNNIXqlPw/BgKoExPmTG7ZLML4EGqLMfqHT6ON" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="6ddecec3-8d4e-4d69-8071-640f682c6e65" data-root-id="1319"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1596">
+          {"f72b67c4-6308-4210-b9ea-f480489af835":{"defs":[],"roots":{"references":[{"attributes":{"active_multi":null,"tools":[{"id":"1337"}]},"id":"1338","type":"Toolbar"},{"attributes":{},"id":"1358","type":"AllLabels"},{"attributes":{},"id":"1328","type":"LinearScale"},{"attributes":{"formatter":{"id":"1353"},"major_label_policy":{"id":"1355"},"minor_tick_line_color":null,"ticker":{"id":"1331"}},"id":"1330","type":"CategoricalAxis"},{"attributes":{"source":{"id":"1381"}},"id":"1386","type":"CDSView"},{"attributes":{"source":{"id":"1346"}},"id":"1351","type":"CDSView"},{"attributes":{},"id":"1359","type":"Selection"},{"attributes":{"fields":[]},"id":"1340","type":"Stack"},{"attributes":{},"id":"1398","type":"Selection"},{"attributes":{"callback":null,"tooltips":"$name @veggies: @$name"},"id":"1337","type":"HoverTool"},{"attributes":{},"id":"1360","type":"UnionRenderers"},{"attributes":{},"id":"1399","type":"UnionRenderers"},{"attributes":{"below":[{"id":"1330"}],"center":[{"id":"1332"},{"id":"1336"},{"id":"1361"}],"height":250,"left":[{"id":"1333"}],"outline_line_color":null,"renderers":[{"id":"1350"},{"id":"1367"},{"id":"1385"}],"title":{"id":"1320"},"toolbar":{"id":"1338"},"toolbar_location":null,"x_range":{"id":"1322"},"x_scale":{"id":"1326"},"y_range":{"id":"1324"},"y_scale":{"id":"1328"}},"id":"1319","subtype":"Figure","type":"Plot"},{"attributes":{"items":[{"id":"1362"},{"id":"1380"},{"id":"1400"}],"location":"top_left","orientation":"horizontal"},"id":"1361","type":"Legend"},{"attributes":{"label":{"value":"2017"},"renderers":[{"id":"1385"}]},"id":"1400","type":"LegendItem"},{"attributes":{},"id":"1378","type":"Selection"},{"attributes":{"factors":["Leek","Onion","Shallot","Garlic","Scallion","Chive"],"range_padding":0.1},"id":"1322","type":"FactorRange"},{"attributes":{"data_source":{"id":"1381"},"glyph":{"id":"1383"},"hover_glyph":null,"muted_glyph":null,"name":"2017","nonselection_glyph":{"id":"1384"},"view":{"id":"1386"}},"id":"1385","type":"GlyphRenderer"},{"attributes":{"label":{"value":"2015"},"renderers":[{"id":"1350"}]},"id":"1362","type":"LegendItem"},{"attributes":{"start":0},"id":"1324","type":"DataRange1d"},{"attributes":{"data_source":{"id":"1346"},"glyph":{"id":"1348"},"hover_glyph":null,"muted_glyph":null,"name":"2015","nonselection_glyph":{"id":"1349"},"view":{"id":"1351"}},"id":"1350","type":"GlyphRenderer"},{"attributes":{"data":{"2015":[2,1,4,3,2,4],"2016":[5,3,4,2,4,6],"2017":[3,2,4,4,5,3],"vegetables":["Leek","Onion","Shallot","Garlic","Scallion","Chive"]},"selected":{"id":"1378"},"selection_policy":{"id":"1379"}},"id":"1363","type":"ColumnDataSource"},{"attributes":{"axis":{"id":"1330"},"grid_line_color":null,"ticker":null},"id":"1332","type":"Grid"},{"attributes":{"bottom":{"expr":{"id":"1340"}},"fill_alpha":{"value":0.1},"fill_color":{"value":"#c9d9d3"},"line_alpha":{"value":0.1},"line_color":{"value":"#c9d9d3"},"top":{"expr":{"id":"1341"}},"width":{"value":0.9},"x":{"field":"vegetables"}},"id":"1349","type":"VBar"},{"attributes":{},"id":"1379","type":"UnionRenderers"},{"attributes":{"bottom":{"expr":{"id":"1342"}},"fill_alpha":{"value":0.1},"fill_color":{"value":"#718dbf"},"line_alpha":{"value":0.1},"line_color":{"value":"#718dbf"},"top":{"expr":{"id":"1343"}},"width":{"value":0.9},"x":{"field":"vegetables"}},"id":"1366","type":"VBar"},{"attributes":{"fields":["2015"]},"id":"1341","type":"Stack"},{"attributes":{"bottom":{"expr":{"id":"1342"}},"fill_color":{"value":"#718dbf"},"line_color":{"value":"#718dbf"},"top":{"expr":{"id":"1343"}},"width":{"value":0.9},"x":{"field":"vegetables"}},"id":"1365","type":"VBar"},{"attributes":{"fields":["2015"]},"id":"1342","type":"Stack"},{"attributes":{"data_source":{"id":"1363"},"glyph":{"id":"1365"},"hover_glyph":null,"muted_glyph":null,"name":"2016","nonselection_glyph":{"id":"1366"},"view":{"id":"1368"}},"id":"1367","type":"GlyphRenderer"},{"attributes":{"fields":["2015","2016"]},"id":"1343","type":"Stack"},{"attributes":{"text":"Vegetable Counts by Year"},"id":"1320","type":"Title"},{"attributes":{"source":{"id":"1363"}},"id":"1368","type":"CDSView"},{"attributes":{"fields":["2015","2016"]},"id":"1344","type":"Stack"},{"attributes":{"formatter":{"id":"1356"},"major_label_policy":{"id":"1358"},"minor_tick_line_color":null,"ticker":{"id":"1334"}},"id":"1333","type":"LinearAxis"},{"attributes":{"fields":["2015","2016","2017"]},"id":"1345","type":"Stack"},{"attributes":{},"id":"1334","type":"BasicTicker"},{"attributes":{"label":{"value":"2016"},"renderers":[{"id":"1367"}]},"id":"1380","type":"LegendItem"},{"attributes":{"data":{"2015":[2,1,4,3,2,4],"2016":[5,3,4,2,4,6],"2017":[3,2,4,4,5,3],"vegetables":["Leek","Onion","Shallot","Garlic","Scallion","Chive"]},"selected":{"id":"1359"},"selection_policy":{"id":"1360"}},"id":"1346","type":"ColumnDataSource"},{"attributes":{"axis":{"id":"1333"},"dimension":1,"ticker":null},"id":"1336","type":"Grid"},{"attributes":{"data":{"2015":[2,1,4,3,2,4],"2016":[5,3,4,2,4,6],"2017":[3,2,4,4,5,3],"vegetables":["Leek","Onion","Shallot","Garlic","Scallion","Chive"]},"selected":{"id":"1398"},"selection_policy":{"id":"1399"}},"id":"1381","type":"ColumnDataSource"},{"attributes":{},"id":"1326","type":"CategoricalScale"},{"attributes":{"bottom":{"expr":{"id":"1340"}},"fill_color":{"value":"#c9d9d3"},"line_color":{"value":"#c9d9d3"},"top":{"expr":{"id":"1341"}},"width":{"value":0.9},"x":{"field":"vegetables"}},"id":"1348","type":"VBar"},{"attributes":{},"id":"1353","type":"CategoricalTickFormatter"},{"attributes":{"bottom":{"expr":{"id":"1344"}},"fill_color":{"value":"#e84d60"},"line_color":{"value":"#e84d60"},"top":{"expr":{"id":"1345"}},"width":{"value":0.9},"x":{"field":"vegetables"}},"id":"1383","type":"VBar"},{"attributes":{},"id":"1355","type":"AllLabels"},{"attributes":{},"id":"1331","type":"CategoricalTicker"},{"attributes":{"bottom":{"expr":{"id":"1344"}},"fill_alpha":{"value":0.1},"fill_color":{"value":"#e84d60"},"line_alpha":{"value":0.1},"line_color":{"value":"#e84d60"},"top":{"expr":{"id":"1345"}},"width":{"value":0.9},"x":{"field":"vegetables"}},"id":"1384","type":"VBar"},{"attributes":{},"id":"1356","type":"BasicTickFormatter"}],"root_ids":["1319"]},"title":"Bokeh Application","version":"2.3.3"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1596').textContent;
+                  var render_items = [{"docid":"f72b67c4-6308-4210-b9ea-f480489af835","root_ids":["1319"],"roots":{"1319":"6ddecec3-8d4e-4d69-8071-640f682c6e65"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
